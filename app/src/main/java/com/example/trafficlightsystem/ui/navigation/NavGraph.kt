@@ -20,7 +20,6 @@ fun NavGraphBuilder.navGraph(navController: NavController) {
                 )
             }
         }
-
     }
 }
 

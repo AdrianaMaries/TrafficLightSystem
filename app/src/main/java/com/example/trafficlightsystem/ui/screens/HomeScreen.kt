@@ -93,7 +93,7 @@ fun CarModel(navController: NavController) {
         isError = carError,
         supportingText = {
             Text(
-                text = if (carError) stringResource(R.string.please_enter_a_valid_car_model) else "",
+                text = if (carError) stringResource(R.string.please_enter_a_valid_car_model) else EMPTY_STRING,
                 color = MaterialTheme.colorScheme.error
             )
         }
@@ -116,3 +116,4 @@ fun CarModel(navController: NavController) {
 }
 
 const val THREE = 3
+const val EMPTY_STRING = ""

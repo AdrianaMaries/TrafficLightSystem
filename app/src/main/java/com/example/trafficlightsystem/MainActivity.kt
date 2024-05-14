@@ -31,7 +31,6 @@ fun TrafficLightSystemApp() {
     val navController = rememberNavController()
     Scaffold( modifier = Modifier.navigationBarsPadding())
     { innerPadding ->
-
         NavHost(
             navController = navController,
             startDestination = TopLevelDestination.Home.route,

@@ -1,4 +1,4 @@
-package com.example.trafficlightsystem.ui.viewmodel
+package com.example.trafficlightsystem.viewmodel
 
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.ViewModel

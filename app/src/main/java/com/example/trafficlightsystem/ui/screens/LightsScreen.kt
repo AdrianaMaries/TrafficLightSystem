@@ -29,8 +29,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import com.example.trafficlightsystem.ui.viewmodel.ILightViewModel
-import com.example.trafficlightsystem.ui.viewmodel.LightScreenViewModel
+import com.example.trafficlightsystem.viewmodel.ILightViewModel
+import com.example.trafficlightsystem.viewmodel.LightScreenViewModel
 import com.example.trafficlightsystem.ui.common.TopAppBar
 import com.example.trafficlightsystem.ui.theme.DarkGreen
 import com.example.trafficlightsystem.ui.theme.DarkRed
