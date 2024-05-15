@@ -79,8 +79,8 @@ fun LightsScreen(navController: NavController, carModel: String, viewModel: ILig
 @Composable
 private fun RedBox(currentColor: Color, viewModel: ILightViewModel) {
     if (currentColor == MyColors.Red.color) {
-        viewModel.onChangeState(MyColors.Yellow.color, 4000)
-        LightBox(initialColor = MyDarkColors.Red.color, targetColor = currentColor, duration = 2000)
+        viewModel.onChangeState(MyColors.Yellow.color, 7000)
+        LightBox(initialColor = MyDarkColors.Red.color, targetColor = currentColor, duration = 4000)
     } else {
         DarkBox(color = MyDarkColors.Red.color)
     }
@@ -99,8 +99,8 @@ private fun YellowBox(currentColor: Color, viewModel: ILightViewModel) {
 @Composable
 private fun GreenBox(currentColor: Color, viewModel: ILightViewModel) {
     if (currentColor == MyColors.Green.color) {
-        viewModel.onChangeState(MyColors.Red.color, 4000)
-        LightBox(initialColor = MyDarkColors.Green.color, targetColor = currentColor, duration = 2000)
+        viewModel.onChangeState(MyColors.Red.color, 7000)
+        LightBox(initialColor = MyDarkColors.Green.color, targetColor = currentColor, duration = 4000)
     } else {
         DarkBox(color = MyDarkColors.Green.color)
     }
